@@ -6,8 +6,6 @@ AUTHOR = 'Peter W Setter'
 SITENAME = 'Error Log'
 #SITETAGLINE = ''
 SITEURL = ''
-#FOOTERTEXTcd p
-THEME = '../pelican-themes/cebong'
 
 PATH = 'content'
 

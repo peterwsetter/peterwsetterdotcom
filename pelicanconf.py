@@ -3,8 +3,11 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Peter W Setter'
-SITENAME = 'Speculations with Setter'
+SITENAME = 'Error Log'
+#SITETAGLINE = ''
 SITEURL = ''
+#FOOTERTEXTcd p
+THEME = '../pelican-themes/cebong'
 
 PATH = 'content'
 
@@ -20,16 +23,24 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('Pelican', 'http://getpelican.com/'),
+#         ('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),
+#         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/peterwsetter'),)
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
+
+#DEFAULT_METADATA = {"yeah" : "it is"}
+
+STATIC_PATHS = [
+    'static'
+]
+
+ARTICLE_PATHS = ['posts']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

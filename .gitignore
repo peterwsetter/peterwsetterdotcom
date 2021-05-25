@@ -1,2 +1,7 @@
-.DS_Store
-__pycache__
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+blogdown
+Thumbs.db 
+public/
